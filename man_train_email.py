@@ -37,7 +37,7 @@ for tardy_staff in staff_email_list:
     subject = 'Mandatory Training Reminder'
     body = 'According to our records, you need to complete the following sections of the Mandatory Trainings \n'
     missing_list = ", ".join(tardy_staff['missing'])
-    body2 = 'Please visit the Swanton Mandatory Training site when you can to finish. \n \n https://sites.google.com/a/fnwsu.org/swanton-school-mandatory-training-site/ '
+    body2 = 'Please visit the Swanton Mandatory Training site when you can to finish. \n \n https://sites.google.com/fnwsu.org/swan-mandatory-training-site/home '
     body3 = 'This is an automated message, please DO NOT respond to it!'
     email_text = """\
     From: %s
