@@ -83,7 +83,12 @@ print("finished with staff emails")
 
 
 sent_from = gmail_user
-to = ["jjennett@fnwsu.org", "dstamour@fnwsu.org", "rgregory@fnwsu.org"]
+to = [
+    "Justina.Jennett@mvsdschools.org",
+    "christopher.dodge@mvsdschools.org",
+    "russell.gregory@mvsdschools.org",
+    "josh.laroche@mvsdschools.org",
+]
 subject = "Mandatory Trainings Notifications Sent"
 body = "Reminders to complete the Mandatory Trainings have been sent to the followint people"
 report = ""
